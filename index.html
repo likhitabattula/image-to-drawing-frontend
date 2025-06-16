@@ -52,8 +52,7 @@
       formData.append('image', file);
       formData.append('effect', effect);
   
-      fetch('https://image-to-drawing-backend-6tqp.onrender.com:10000/convert', {
-
+      fetch('https://image-to-drawing-backend-6tqp.onrender.com/convert', {
         method: 'POST',
         body: formData
       })
